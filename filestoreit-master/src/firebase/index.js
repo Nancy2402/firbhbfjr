@@ -1,0 +1,10 @@
+import 'firebase/analytics';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import { environment } from '../environment/environment';
+firebase.initializeApp(environment.firebase);
+export const firebaseAuth = firebase.auth();
+export const firebaseAnalytics = firebase.analytics();
+export const firebaseGithubAuthProvider = firebase.auth.GithubAuthProvider;
+export const firebaseGoogleAuthProvider = firebase.auth.GoogleAuthProvider;
+export const firebaseFacebookAuthProvider = firebase.auth.FacebookAuthProvider;

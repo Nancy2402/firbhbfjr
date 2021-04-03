@@ -1,0 +1,26 @@
+{
+	"short_name": "FileStoreIt",
+	"name": "FileStoreIt",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "48x48",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "logo192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "logo512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#0069d9",
+	"background_color": "#0069d9",
+	"description": "Web App To Store All Your Files And Folders In A Secured Environment"
+}
